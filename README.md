@@ -53,15 +53,64 @@ uvicorn main:app --host 0.0.0.0 --port 8080 --reload
 
 ```
 
+* Model Learning
+```
+## 이상행동 감지 model
+
+model = YOLO("yolov8n.pt")
+data_yaml = "data.yaml"
+
+model.train(
+    data=data_yaml,  
+    epochs=100,     
+    imgsz=640,      
+    batch=16,        
+    workers=4,       
+    name='danger_drivingv3',  
+)
+
+## data.yaml
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['ab_danger_cornering', 'ab_wheelie', 'abnormal', 'normal']
+
+roboflow:
+  workspace: 2klips
+  project: bike_danger_driving
+  version: 3
+  license: Public Domain
+  url: https://universe.roboflow.com/2klips/bike_danger_driving/dataset/3
+```
+```
+## 헬멧 미착용 감지 model
+
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['ab_danger_cornering', 'ab_wheelie', 'abnormal', 'normal']
+
+roboflow:
+  workspace: 2klips
+  project: bike_danger_driving
+  version: 3
+  license: Public Domain
+  url: https://universe.roboflow.com/2klips/bike_danger_driving/dataset/3
+```
+
 
 # 포트폴리오
 
 ![917ab1cda90918ceb58074243b46922f-0](https://github.com/user-attachments/assets/5979141b-fd1f-4efb-b13a-6c7878a26f4f)
 
 <!-- ![917ab1cda90918ceb58074243b46922f-0](https://github.com/user-attachments/assets/5979141b-fd1f-4efb-b13a-6c7878a26f4f) -->
-![917ab1cda90918ceb58074243b46922f-1](https://github.com/user-attachments/assets/e7def550-79fa-47b2-96ef-7706e1aaaf70)
+<!-- ![917ab1cda90918ceb58074243b46922f-1](https://github.com/user-attachments/assets/e7def550-79fa-47b2-96ef-7706e1aaaf70)
 ![917ab1cda90918ceb58074243b46922f-2](https://github.com/user-attachments/assets/779a7c6a-1721-454d-b178-d342c49187fe)
-![917ab1cda90918ceb58074243b46922f-3](https://github.com/user-attachments/assets/f5881950-d618-4fba-877d-c46b294fd3f9)
+![917ab1cda90918ceb58074243b46922f-3](https://github.com/user-attachments/assets/f5881950-d618-4fba-877d-c46b294fd3f9) -->
 
 ![917ab1cda90918ceb58074243b46922f-7](https://github.com/user-attachments/assets/b312deed-7386-4a70-8c4b-abbc396d7fb3)
 ![917ab1cda90918ceb58074243b46922f-8](https://github.com/user-attachments/assets/13e9240b-7ba2-485b-b1a6-6b7561ad0750)
