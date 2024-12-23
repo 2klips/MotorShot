@@ -58,16 +58,11 @@ uvicorn main:app --host 0.0.0.0 --port 8080 --reload
 
 ![917ab1cda90918ceb58074243b46922f-0](https://github.com/user-attachments/assets/5979141b-fd1f-4efb-b13a-6c7878a26f4f)
 
-<details>
-  <summary>펼치기/접기</summary>
-
 <!-- ![917ab1cda90918ceb58074243b46922f-0](https://github.com/user-attachments/assets/5979141b-fd1f-4efb-b13a-6c7878a26f4f) -->
 ![917ab1cda90918ceb58074243b46922f-1](https://github.com/user-attachments/assets/e7def550-79fa-47b2-96ef-7706e1aaaf70)
 ![917ab1cda90918ceb58074243b46922f-2](https://github.com/user-attachments/assets/779a7c6a-1721-454d-b178-d342c49187fe)
 ![917ab1cda90918ceb58074243b46922f-3](https://github.com/user-attachments/assets/f5881950-d618-4fba-877d-c46b294fd3f9)
-![917ab1cda90918ceb58074243b46922f-4](https://github.com/user-attachments/assets/d6ba2e21-185d-4fe3-b86e-55dd7c6ce04a)
-![917ab1cda90918ceb58074243b46922f-5](https://github.com/user-attachments/assets/c5055fe4-52a4-4d5a-b616-85d6b9dcfa5c)
-![917ab1cda90918ceb58074243b46922f-6](https://github.com/user-attachments/assets/c6adc318-c5c9-4fa1-b1e0-0e21c3c7e406)
+
 ![917ab1cda90918ceb58074243b46922f-7](https://github.com/user-attachments/assets/b312deed-7386-4a70-8c4b-abbc396d7fb3)
 ![917ab1cda90918ceb58074243b46922f-8](https://github.com/user-attachments/assets/13e9240b-7ba2-485b-b1a6-6b7561ad0750)
 ![917ab1cda90918ceb58074243b46922f-9](https://github.com/user-attachments/assets/7b4a2bf4-7150-4bee-b263-70494b5577d2)
@@ -76,12 +71,6 @@ uvicorn main:app --host 0.0.0.0 --port 8080 --reload
 ![917ab1cda90918ceb58074243b46922f-12](https://github.com/user-attachments/assets/1c42a12e-8434-4057-ac48-771190fa1651)
 ![917ab1cda90918ceb58074243b46922f-13](https://github.com/user-attachments/assets/8584455b-7592-469b-ae65-f44651e31e58)
 ![917ab1cda90918ceb58074243b46922f-14](https://github.com/user-attachments/assets/2b745df2-e2d5-41c7-82e2-12519adf75df)
-![917ab1cda90918ceb58074243b46922f-15](https://github.com/user-attachments/assets/7ee7af6c-52f9-4a2c-9ac6-d4f07fba6721)
-![917ab1cda90918ceb58074243b46922f-16](https://github.com/user-attachments/assets/fb45a377-141d-4c70-993f-4d14d943dd7c)
-![917ab1cda90918ceb58074243b46922f-17](https://github.com/user-attachments/assets/71933b91-fc70-4641-9975-01819cdd980f)
- 
- </details>
-
 <br>
 
 # 사용 기술
